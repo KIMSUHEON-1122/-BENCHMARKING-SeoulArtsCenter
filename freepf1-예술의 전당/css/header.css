@@ -1,0 +1,104 @@
+body{
+   background-color: #6f6f74;
+ 
+   display: flex;
+   flex-direction: column;
+}
+.header {
+  width: 100%;
+  height: 106px;
+  color: white;
+  position: fixed;
+  background-color: #c68f8f;
+  z-index: 2;
+  }
+  .header>div {
+  display: flex;
+  box-sizing: border-box;
+  padding: 30px 75px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  }
+  .header div .menu {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  position: relative;
+  }
+.header div .welcome{
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  position: absolute;
+  right: 190px;
+}
+.header div .welcome a,.lan{
+  box-sizing: border-box;
+border-radius: 52.5px;
+width: 105px;
+height: 35px;
+color: white;
+line-height: 2;
+text-decoration: none;
+  text-align: center;
+}
+.header div .menu p{
+  
+  box-sizing: border-box;
+  display: inline-block;
+  position: absolute;
+  padding: 40px 5px;
+}
+  .header div .logo {
+  }
+
+  .header div .logo::after {
+  background-image: url(../img/logo.png);
+  width: 150px;
+  height: 48px;
+  display: inline-block;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  }
+  .header div .log {
+  background-color: #0e8844;
+  }
+  .header div .sign {
+  
+  background-color: #646277;
+ 
+  }
+.header div form{
+  
+}
+  .header div .lan {
+
+
+  background-color: transparent;
+  border: 1px solid white;
+  }
+.header div .more{
+  display: flex;
+  justify-content: space-around;
+  gap: 8px;
+}
+.header div .more a::after{
+  width: 30px;
+  height: 30px;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  }
+  .header div .search::after {
+  background-image: url(../img/search.png);
+  }
+  .header div .cal::after {
+  background-image: url(../img/cal.png);
+  }
+  .header div .map::after {
+  background-image: url(../img/list.png);
+  }
