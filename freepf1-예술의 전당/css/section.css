@@ -68,4 +68,59 @@
   position: absolute;
   top: 480px;
 }
+.main .mainimg .list .posterlist{
+
+  display: flex;
+  justify-content: space-around;
+}
+.main .mainimg .list .posterlist li{
+
+  list-style: none;
+}
+.main .mainimg .list .posterlist li a{
+
+  font-size: 0;
+}
+.main .mainimg .list .posterlist li:nth-child(1) a::before{
+  content: "";
+  background-image: url(../img/poster1.jpg);
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+.main .mainimg .list .posterlist li:nth-child(2) a::before{
+  content: "";
+  background-image: url(../img/poster2.jpg);
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+.main .mainimg .list .posterlist li:nth-child(3) a::before{
+  content: "";
+  background-image: url(../img/poster3.jpg);
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+.main .mainimg .list .posterlist li:nth-child(4) a::before{
+  content: "";
+  background-image: url(../img/poster4.jpg);
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+.main .mainimg .list .posterlist li:nth-child(5) a::before{
+  content: "";
+  background-image: url(../img/poster5.jpg);
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+.main .mainimg .list .posterlist li:nth-child(6) a::before{
+  content: "";
+  background-image: url(../img/poster6.jpg);
+  width: 100px;
+  height: 100px;
+  display: block;
+}
 /* main */
